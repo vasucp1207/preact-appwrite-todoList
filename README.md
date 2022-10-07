@@ -5,8 +5,8 @@ https://user-images.githubusercontent.com/85363195/194565519-a79031e1-a823-4c84-
 
 ### Highlights
 - Complete CRUD functionality.
-- Use ![preact-js]('https://preactjs.com/') **signal** for handling the states.
-- Use [appwrite]('https://appwrite.io/') for **backend services** such as authentication and database.
+- Use [preact-js](https://preactjs.com/) **signal** for handling the states.
+- Use [appwrite](https://appwrite.io/) for **backend services** such as authentication and database.
 
 ### Setup
 - Fork the repo to your account.
@@ -16,7 +16,7 @@ git clone https://github.com/<YourGithubUserName>/preact-appwrite-todoList.git
 ``
 - Open your clone project in your preferable editor.
 - Open terminal and install dependencies ``npm install``.
-- Start the project on localhost by running ``npm run dev``, now app is running on your localhost type [localhost:8080]('https://localhost:8080') in browser to launch the app.
+- Start the project on localhost by running ``npm run dev``, now app is running on your localhost type [localhost:8080](https://localhost:8080) in browser to launch the app.
 
 ### Contributing
 
