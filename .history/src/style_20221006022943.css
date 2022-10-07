@@ -1,0 +1,26 @@
+html, body {
+	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	text-align: center;
+}
+
+.signup{
+	background-color: aqua;
+	max-width: 300px;
+}
+
+.signup-form{
+	font-size: 35px;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+}
+
+.signup-bnt{
+	mar
+}

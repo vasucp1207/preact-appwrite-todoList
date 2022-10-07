@@ -1,0 +1,152 @@
+html, body {
+	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.todo-inp{
+	width: 50vw;
+}
+
+.add-todo-btn{
+	width: 100px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.add-todo-btn:hover{
+	background-color: white;
+	color: #FF5722;
+}
+
+.delete-btn{
+	width: 30px;
+	margin-left: 20px;
+	cursor: pointer;
+	border-radius: 50px;
+	color: #F55320;
+	border: 1px solid #F55320;
+	min-width: 80px;
+	height: 40px;
+}
+
+.cont{
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signup{
+	border: 1px solid #E2E2E2;
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.login{
+	border: 1px solid #E2E2E2;
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.signup-form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: 80px;
+	font-size: 30px;
+	color: white;
+	background-color: #FF5722;
+	border: 1px solid #F55320;
+}
+
+.login-form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: 80px;
+	font-size: 30px;
+	color: white;
+	background-color: #FF5722;
+	border: 1px solid #F55320;
+}
+
+.links{
+	color: #FF5722;
+	text-decoration: none;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+input{
+	text-indent: 10px;
+	width: 280px;
+	height: 35px;
+	border: none;
+	border-radius: 50px;
+	background-color: rgba(2, 2, 2, 0.07);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+input:focus{
+	outline: none;
+}
+
+p{
+	font-size: 15px;
+}
+
+.add-todo-btn{
+	border-radius: 50px;
+	color: white;
+	background-color: #FF5722;
+	border: 1px solid #F55320;
+	min-width: 80px;
+	height: 40px;
+}
+
+.signup-btn{
+	margin-top: 30px;
+	width: 260px;
+	margin-bottom: 40px;
+	height: 35px;
+	font-size: 15px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;color: white;
+	background-color: #FF5722;
+	border: 1px solid #F55320;
+}
+
+.signup-btn:hover{
+	background-color: white;
+	color: #FF5722;
+}
+
+.have-acc{
+	margin-bottom: 10px;
+}
+
+.goal-wrap{
+	display: flex;
+	flex-direction: c;
+}

@@ -1,0 +1,43 @@
+html, body {
+	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	text-align: center;
+}
+
+.signup{
+	background-color: aqua;
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.signup-form{
+	font-size: 30px;
+	text-align: center;
+}
+
+input{
+	width: 280px;
+	height: 27px;
+	border: none;
+	border-radius: 50%;
+}
+
+p{
+	font-size: 15px;
+}
+
+.signup-btn{
+	margin-top: 20px;
+	width: 260px;
+	margin-bottom: 60px;
+	height: 27px;
+	font-size: 15px;
+	border: none;
+	border-radius: 50%;
+}
