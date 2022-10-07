@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/85363195/194565519-a79031e1-a823-4c84-
 
 ### Setup
 - Fork the repo to your account.
-- Clone the newly forked repo using the command
+- Clone your forked repo using
 ``
 git clone https://github.com/<YourGithubUserName>/preact-appwrite-todoList.git
 ``
