@@ -5,7 +5,7 @@ https://user-images.githubusercontent.com/85363195/194565519-a79031e1-a823-4c84-
 
 ### Highlights
 - Complete CRUD functionality.
-- Use [preact-js]('https://preactjs.com/') **signal** for handling the states.
+- Use [preact-js]('https://preactjs.com/' 'preact-js') **signal** for handling the states.
 - Use [appwrite]('https://appwrite.io/') for **backend services** such as authentication and database.
 
 ### Setup
