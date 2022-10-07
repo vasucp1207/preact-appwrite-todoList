@@ -67,7 +67,7 @@ export default function Signup() {
                     <input 
                         required 
                         placeholder='Enter your password'
-                        type='password'
+                        type=
                         onInput={setPassword}
                     />
                 </div>
