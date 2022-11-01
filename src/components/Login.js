@@ -1,5 +1,4 @@
 import { client, account, database } from '../appwrite/appwrite'
-import { v4 as uuid } from 'uuid';
 import { signal } from "@preact/signals";
 import { route } from 'preact-router';
 import { Link } from 'preact-router/match';

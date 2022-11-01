@@ -14,7 +14,7 @@ function ShowTodo() {
         }, function (error) {
             console.log(error)  // Failure
         })
-    }, [])
+    }, [goals.value])
 
     const removeGoal = (id) => {
         const promise = database.deleteDocument("633f403dcda63e88b76c", "633f404ac991d157efa9", id)
@@ -26,7 +26,6 @@ function ShowTodo() {
                 console.log(error);
             }
         )
-        window.location.reload()
     }
 
     const doneGoal = (id) => {
@@ -41,7 +40,6 @@ function ShowTodo() {
                 console.log(error);
             }
         )
-        window.location.reload()
     }
 
     const undoGoal = (id) => {
@@ -56,7 +54,6 @@ function ShowTodo() {
                 console.log(error);
             }
         )
-        window.location.reload()
     }
 
     console.log(!(completeGoal.value))

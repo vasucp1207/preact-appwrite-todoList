@@ -1,5 +1,5 @@
 import { account } from '../appwrite/appwrite'
-import { v4 as uuid } from 'uuid';
+import { ID } from 'appwrite'
 import { signal } from "@preact/signals";
 import { route } from 'preact-router';
 import { Link } from 'preact-router/match';
@@ -22,11 +22,11 @@ const setPassword = (e) => {
 
 export default function Signup() {
 
-    const signUp = (e) => {
+    const signUp = async(e) => {
         e.preventDefault()
 
         const promise = account.create(
-            uuid(),
+            ID.unique(),
             email.value,
             password.value,
             name.value,

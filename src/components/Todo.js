@@ -1,13 +1,13 @@
 import { signal } from "@preact/signals";
 import { database } from '../appwrite/appwrite'
-import { v4 as uuid } from 'uuid';
+import { ID } from 'appwrite'
 import ShowTodo from './ShowTodo'
 
 const todo = signal("")
 
 const addTodo = (e) => {
     e.preventDefault()
-    const promise = database.createDocument("633f403dcda63e88b76c", "633f404ac991d157efa9", uuid(), {
+    const promise = database.createDocument("633f403dcda63e88b76c", "633f404ac991d157efa9", ID.unique(), {
         content: todo.value,
         done: 'false'
     })
@@ -17,7 +17,7 @@ const addTodo = (e) => {
         console.log(error)  // Failure
     })
     todo.value = ""
-    window.location.reload()
+    // window.location.reload()
 }
 
 const setTodo = (e) => { todo.value = e.target.value }
